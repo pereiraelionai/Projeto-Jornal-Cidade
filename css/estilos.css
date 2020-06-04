@@ -1,0 +1,131 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url("../imagens/fundo.png") repeat-x;
+}
+#container {
+	width: 850px;
+	margin: 0 auto;
+}
+#topo {
+	height: 200px;
+	background: url("../imagens/detalhe-topo.png") no-repeat right;
+}
+#logo {
+	padding-top: 40px;
+	padding-left: 55px;
+}
+#topo ul li {
+	list-style-type: none;
+	padding-left: 60px;
+}
+#topo li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	float: left;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background: #c7002d url("../imagens/divisor.png") no-repeat left;
+}
+#topo a:hover {
+	color: #700019;
+	background: #f80033;
+}
+#home .home a, #brasil .brasil a,
+#internacional .internacional a,
+#economia .economia a,
+#saude .saude a,
+#ciencia .ciencia a,
+#fotos .fotos a {
+	color: #700019;
+	background: #f80033;
+}
+/*#topo ul .primeiro a {
+	background: none;
+}*/
+#conteudo {
+	margin-top: 50px;
+}
+#menu {
+	width: 184px;
+	float: left;
+	margin: 5px;
+	background: url("../imagens/fundo-caixa.png");
+}
+#menu ul {
+	background: white;
+	margin: 10px;
+	height: 210px;
+}
+#menu ul li {
+	list-style-type: none;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+}
+h3 {
+	background: #254567;
+	color: white;
+	font-weight: bold;
+	margin: 10px;
+	padding: 5px;
+}
+#menu li:hover {
+	color: #9d9d9d;
+	padding-left: 20px;
+	padding-top: 6px;
+	background: url("../imagens/marcador.png") no-repeat left center;
+	cursor: pointer;
+}
+#conteudo_secundario {
+	width: 315px;
+	float: right;
+	margin: 5px;
+	background: url("../imagens/fundo-caixa.png");
+}
+#conteudo_primario {
+	width: 315px;
+	float: right;
+	margin: 5px;
+	background: url("../imagens/fundo-caixa.png");
+}
+#conteudo_primario h5 {
+	background: #f80033;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	width: 75%;
+	line-height: 20px;
+}
+.caixa_texto {
+	background: white;
+	margin: 10px;
+}
+.imagem {
+	width: 100%;
+	margin: 0px;
+}
+.texto {
+	font-size: 0.9em;
+}
+.link {
+	color: #f80033;
+	text-decoration: underline;
+}
+#news {
+	background: white;
+	margin: 10px;
+}
+#news input#email {
+	width: 100%;
+	height: 30px;
+}
+#news input#botao {
+	background: #f80033;
+	color: white;
+	width: 55%;
+	line-height: 25px;
+}
