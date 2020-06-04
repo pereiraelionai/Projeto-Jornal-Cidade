@@ -16,17 +16,20 @@
 				<div id="logo">
 					<img src="imagens/logo.png">
 				</div>
-				<ul id="home">
-					<li class="home primeiro"><a href="">Home</a></li>
-					<li class="brasil"><a href="">Brasil</a></li>
-					<li class="internacional"><a href="">Intenacional</a></li>
-					<li class="economia"><a href="">Economia</a></li>
-					<li class="saude"><a href="">Saúde</a></li>
-					<li class="ciencia"><a href="">Ciência</a></li>
-					<li class="fotos"><a href="">Fotos</a></li>
-				</ul>
+				<div id="fundo">
+					<ul id="home">
+						<li class="home primeiro"><a href="index.html">Home</a></li>
+						<li class="brasil"><a href="brasil.html">Brasil</a></li>
+						<li class="internacional"><a href="internacional.html">Intenacional</a></li>
+						<li class="economia"><a href="economia.html">Economia</a></li>
+						<li class="saude"><a href="saude.html">Saúde</a></li>
+						<li class="ciencia"><a href="ciencia.html">Ciência</a></li>
+						<li class="fotos"><a href="fotos.html">Fotos</a></li>
+					</ul>
+				</div>
 			</div><!--fim topo_-->
 			<div id="conteudo">
+				<!--Menu lateral-->
 				<div id="menu">
 					<h3>Entrevistas</h3>
 					<ul>
@@ -42,98 +45,110 @@
 					<div>
 						<h3>News!</h3>
 						<div id="news">
-							<label for="email">Email:</label><br>
-							<input type="text" name="input_email" placeholder="E-mail" id="email">
-							<input type="submit" value="Cadastar" id="botao">
+							<form>
+								<label for="email">Email:</label><br>
+								<input type="text" name="input_email" placeholder="E-mail" id="email">
+								<input type="submit" value="Cadastar" id="botao">
+							</form>
 						</div>
 					</div>
-				</div>
-
+				</div><!-- fim Menu lateral-->
+				<!-- Inicio do conteúdo 2ª coluna -->
 				<div id="conteudo_secundario">
-						<h3>Destaque</h3>
+						<h3>Últimas Notícias</h3>
 						<div class="caixa_texto">
 							<h5>Mudança nos taxis</h5>
 							<img src="imagens/taxi.jpg" class="imagem">
 							<p class="texto">
-								Taxis nos EUA vão deixar de ser amarelos a partir de 2021.
+								Taxi perde espaço para motoristas de aplicativo.
 							</p>
-							<a href="" class="link">Leia mais!</a>
+							<a href="internacional.html" class="link">Leia mais!</a>
 						</div>
 						<h3>Notícias Recentes</h3>
 						<div class="caixa_texto">
-							<img src="imagens/tecnologia.jpg" class="imagem_pequena">
+							<a href="ciencia.html"><img src="imagens/tecnologia.jpg" class="imagem_pequena">
 							<div class="mini_caixa">
-								<a href=""><h6>Novas Tecnologias</h6></a>
+								<h6>Novas Tecnologias</h6>
 								<p class="texto_pequeno">
 									Conheça tecnologias que estão mudando a vida das pessoas.
 								</p>
+							</a>
 							</div>
 							<hr>
-							<img src="imagens/mundo.jpg" class="imagem_pequena">
+							<a href="saude.html"><img src="imagens/mundo.jpg" class="imagem_pequena">
 							<div class="mini_caixa">
-								<a href=""><h6>Parlamento aprova</h6></a>
+								<h6>Parlamento aprova</h6>
 								<p class="texto_pequeno">
-									Parlamento aprova lei de inclusão digital.
+									Parlamento aprova lei que libera vacina para COVID-19.
 								</p>
+							</a>
 							</div>
 							<hr>
-							<img src="imagens/taxi.jpg" class="imagem_pequena">
+							<a href="internacional.html"><img src="imagens/taxi.jpg" class="imagem_pequena">
 							<div class="mini_caixa">
-								<a href=""><h6>Mudança nos taxis dos EUA</h6></a>
+								<h6>Mudança nos taxis dos EUA</h6>
 								<p class="texto_pequeno">
 									Taxis deixarão de ser amrelos a partir de 2021.
 								</p>
+							</a>
 							</div>
 							<hr>
-							<img src="imagens/doutor.jpg" class="imagem_pequena">
+							<a href="brasil.html"><img src="imagens/doutor.jpg" class="imagem_pequena">
 							<div class="mini_caixa">
-								<a href=""><h6>Entrevista com o Dr. Felipe Silva</h6></a>
+								<h6>Entrevista com o Dr. Felipe Silva</h6>
 								<p class="texto_pequeno">
 									Dr. Felipe conta como é estar na linha de frente contra a COVID-19.
 								</p>
+							</a>
 							</div>
 
-						</div>
+						</div><!-- Fim do conteúdo 2ª coluna -->
 				</div>	
+					<!-- Inicio do conteúdo 1ª coluna -->
 					<div id="conteudo_primario">
-						<h3>Última Entrevista</h3>
+						<h3>Destaque</h3>
 						<div class="caixa_texto">
 							<h5>Entrevista com Dr.Felipe Silva</h5>
 							<img src="imagens/doutor.jpg" class="imagem">
 							<p class="texto">
 								Dr. Felipe conta como é estar na linha de frente na batalha contra a COVID-19.
 							</p>
-							<a href="" class="link">Leia mais!</a>
+							<a href="brasil.html" class="link">Leia mais!</a>
 						</div>
 							<h3>Mundo</h3>
 						<div class="caixa_texto_primario">
-							<img src="imagens/mundo.jpg" class="imagem_pequena">
+							<a href=""><img src="imagens/cidade.jpg" class="imagem_pequena">
 								<div class="mini_caixa">
-									<a href=""><h6>Crise no mundo</h6></a>
+									<h6>Crise no mundo</h6>
 									<p class="texto_pequeno">Com a intensificação da pandemia, países veem seus PIB's reduzirem e a ecônomia.</p>
+								</a>
 								</div>
 								<hr>
-								<img src="imagens/beckham.jpg" class="imagem_pequena">
+								<a href=""><img src="imagens/beckham.jpg" class="imagem_pequena_beck">
 								<div class="mini_caixa">
-									<a href=""><h6>Beckham voltará aos gramados</h6></a>
+									<h6>Beckham voltará aos gramados</h6>
 									<p class="texto_pequeno">Jogador inglês  provavelmente atuará no time em que ele é dono.</p>
+								</a>
 								</div>
 								<hr>
-								<img src="imagens/trump.jpg" class="imagem_pequena">
+								<a href=""><img src="imagens/trump.jpg" class="imagem_pequena">
 								<div class="mini_caixa">
-									<a href=""><h6>Reforma na casa branca</h6></a>
-									<p class="texto_pequeno">O presidente Donald Trump planeja realizar a maior reforma da casa branca.</p>
+									<h6>Reforma na casa branca</h6>
+									<p class="texto_pequeno">O presidente Donald Trump planeja realizar a maior reforma da casa branca.
+									</p>
+								</a>
 								</div>
 								<hr>
-								<img src="imagens/money.jpg" class="imagem_pequena">
+								<a href="economia.html"><img src="imagens/money.jpg" class="imagem_pequena">
 								<div class="mini_caixa">
-									<a href=""><h6>Como protejer seu dinheiro na crise</h6></a>
+									<h6>Como protejer seu dinheiro na crise</h6>
 									<p class="texto_pequeno">Conheça as técnicas de investimento seugro para o seu dinheiro.</p>
+								</a>
 								</div>
 							</div>
-						</div>
+						</div> <!-- Fim do conteúdo 2ª coluna -->
 					</div>
-				</div>
+				</div><!-- Fim do conteúdo -->
 			</div> <!--Fim do container-->
 			<div id="rodape">
 				<p>&copy; Copyright 2000-2018 Notícias Cidade</p>
